@@ -93,7 +93,7 @@ ul{
     margin-top: 5px;
     width: 1900px;
     height: 960px;
-    background-image: url(/images/Group\ 48\ 1.svg);
+    background-image: url(./images/Group\ 48\ 1.svg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -179,7 +179,7 @@ ul{
 .img-wrap{
     height: 1000px;
     width: 100%;
-    background-image: url(/images/Rectangle\ 10.svg);
+    background-image: url(./images/Rectangle\ 10.svg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -269,7 +269,7 @@ ul{
 .sec_5-wrap{
     width: 1900px;
     height: 920px;
-    background-image: url(/images/Rectangle\ 20.svg);
+    background-image: url(./images/Rectangle\ 20.svg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -308,7 +308,7 @@ ul{
 .footer{
     width: 1900px;
     height: 223px;
-    background-image: url(/images/Rectangle\ 142.svg);
+    background-image: url(./images/Rectangle\ 142.svg);
 }
 .vertical-line{
     border: 1px solid #FFFFFF;
