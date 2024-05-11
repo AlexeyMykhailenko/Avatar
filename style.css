@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Headland+One&family=Inter:wght@100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Headland+One&family=Inter:wght@100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@400;500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.flex{
+    display: flex;
+}
+:root{
+    --btn-text-color: #26C6EA;
+    --btn-bgcolor: #0B0E66;
+    --text-color: #0A3853;
+}
+/* =============================header========================== */
+.header{
+    width: 1900px;
+    height: 150px;
+    background-color: #2B4A61;
+}
+.header-wrap{
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    padding-top: 39px;
+    padding-left: 204px;
+}
+.menu>li>.el1{
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 600;
+    color:#94CFFF;
+}
+.menu li a{
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: #FFFFFF;
+    line-height: 24px;
+}
+.menu{
+    gap: 38px;
+    padding-top: 40px;
+}
+.buttons{
+    gap: 49px;
+    padding-top: 38px;
+}
+.btn{
+    display: block;
+    width: 141px;
+    height: 42px;
+    background-color: var(--btn-bgcolor);
+    border: 2px solid var(--btn-text-color);
+    border-radius: 35px 0px 35px 0px;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    color: var(--btn-text-color);
+    padding: 8px 38px;
+}
+.menu-2{
+    gap: 10px;
+    padding-top: 10px;
+}
+.menu-2>.UA{
+    color: red;
+    font-family: "Hammersmith One", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.menu-2:nth-child(2n-1){
+    font-family: "Hammersmith One", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+/* ==================================section1=================================== */
+.sec-1{
+    margin-top: 5px;
+    width: 1900px;
+    height: 960px;
+    background-image: url(/images/Group\ 48\ 1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sec_1-wrap{
+    gap: 440px;
+}
+.sec_1-wrap img{
+    margin-left: 380px;
+}
+.sec_1-text{
+    margin-top: 280px;
+    margin-left: 330px;
+    width: 278px;
+    height: 96px;
+    color: #FFFFFF;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+.sec_1-text-2{
+    width: 365px;
+    height: 120px;
+    margin-left: 330px;
+    color: #FFFFFF;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+.button-1>.btn-2{
+    display: block;
+    width: 260px;
+    height: 80px;
+    background-color: var(--btn-bgcolor);
+    border: 2px solid var(--btn-text-color);
+    font-family: "Headland One", serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    padding: 8px 30px;
+    color: var(--btn-text-color);
+    border-radius: 45px 0px 45px 0px;
+    text-align: center;
+}
+.button-1{
+    margin-left: 330px;
+    margin-top: 42px;
+}
+.icons{
+    margin-top: 405px;
+    width: 60px;
+    height: 145px;
+    flex-wrap: wrap;
+}
+.inst, .yt{
+    padding-left: 14px;
+}
+/* =================================section2==================================== */
+.sec_2{
+    margin-top: 75px;
+}
+.sec_2-h2{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    color: var(--text-color);
+    text-align: center;
+    margin-bottom: 16px;
+}
+.sec_2-p{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: black;
+    text-align: center;
+}
+.sec_2-img{
+    margin-left: 720px;
+}
+.img-wrap{
+    height: 1000px;
+    width: 100%;
+    background-image: url(/images/Rectangle\ 10.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.in-btn-text{
+    display: block;
+    width: 260px;
+    height: 80px;
+    background-color: var(--btn-bgcolor);
+    border: 3px solid var(--btn-text-color);
+    border-radius: 45px 0px 45px 0px;
+    color: var(--btn-text-color);
+    font-family: "Headland One", serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+.in-btn{
+    padding-top: 470px;
+    padding-left: 810px;
+}
+/* ===================================section3========================================== */
+.sec_3{
+    margin-top: 75px;
+}
+.sec_3-h2{
+    font-family: "Inter", sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    color:#141414;
+    line-height: 43.5px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.sec_3-p{
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    color: black;
+    text-align: center;
+}
+.sec_3-bird{
+    margin-left: 720px;
+}
+.card-box{  
+    width: 1100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 36px;
+    margin-top: 95px;
+    margin-left: 405px;
+}
+.card-box div{
+    font-family: "Headland One", serif;
+    width: 320px;
+    height: 240px;
+    background-color: white;
+    opacity: 70%;
+}
+.card-box div h4{
+    font-family: "Headland One", serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+    padding-top: 40px;
+    margin-bottom: 40px;
+    color: #141414;
+    opacity: 100%
+}
+.card-box div img{
+    padding-left: 80px;
+    margin-bottom: 40px;
+}
+.card-box div p{
+    font-family: "Headland One", serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    opacity: 100%;
+}
+.sec_5-wrap{
+    width: 1900px;
+    height: 920px;
+    background-image: url(/images/Rectangle\ 20.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sec_5-h2{
+    font-family: "Headland One", serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 40px;
+    color: #141414;
+    text-align: center;
+    padding-top: 58px;
+}
+
+.el2{
+    margin-top: 75px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    color: #141414;
+    margin-bottom: 16px;
+}
+.el2+p{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #000000;
+}
+.img-2{
+    margin-left: 720px;
+}
+/* ===================================footer===================================== */
+.footer{
+    width: 1900px;
+    height: 223px;
+    background-image: url(/images/Rectangle\ 142.svg);
+}
+.vertical-line{
+    border: 1px solid #FFFFFF;
+    width: 1px;
+    height: 153px;
+}
+.ftr-wrap{
+    gap: 80px;
+    padding-top: 35px;
+    padding-left: 504px;
+    font-family: "Inter", sans-serif;
+}
+.t1, .t2{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+.t3{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    color: #FFFFFF;
+    margin-top: 37px;
+    margin-left: 120px;
+}
+.t1{
+    padding-top: 40px;
+}
+/* ============================================other decorations============================================= */
+.btn:hover{
+    border-radius: 4px;
+    transition: 0.5s;
+    background-color: green;
+    border: none;
+    color: yellow
+}
+.button-1>.btn-2:hover{
+    border-radius: 4px;
+    border: none;
+    background-color: lightblue;
+}
+.menu>li>a:hover{
+    color: coral;
+    font-size: 25px;
+    transition: 0.5s;
+}
+.button-1>.btn-2:hover{
+    width: 280px;
+    height: 100px;
+    background-color: var(--btn-bgcolor);
+    border-radius: 45px 0px 45px 0px;
+    padding-top: 16px;
+    transition: 0.4s;
+}
+.in-btn-text:hover{
+    width: 280px;
+    height: 100px;
+    background-color: var(--btn-bgcolor);
+    border-radius: 45px 0px 45px 0px;
+    transition: 1s;
+    padding-top: 30px;
+    padding-left: 45px;
+    border: none;
+}
+.card-box div:hover{
+    opacity: 100%;
+    transition: 0.2s;
+    box-shadow: 0px 0px 8.4px 10.8px deeppink;
+}
